@@ -1,0 +1,15 @@
+{
+  "extends": "eslint-config-react-native-wcandillon/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["./src/components/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@store/*": ["./src/store/*"]
+    },
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true
+  }
+}
